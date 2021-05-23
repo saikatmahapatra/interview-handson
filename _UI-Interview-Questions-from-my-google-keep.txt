@@ -140,9 +140,26 @@ JS important concepts to know
 21. Identity Operator (===) vs. Equality Operator (==)
 22. Array methods (map, reduce, filter)
 23. Map Set
-24. Execute setTimeout() from a for loop. What would be the output & why
-for(var i = 0; i<5; i+,+{setTimeout(()=>{console.log(i)})}
-for(let i = 0; i<5; i++) {setTimeout(()=>{console.log(i)})}
+24. Execute setTimeout() from a for loop. What would be the output & why?
+
+for(var i = 0; i<5 ; i++){
+    setTimeout(function(){
+        console.log(i);
+    }); // set 0 here and ask what would be output. same output
+}
+// 5 times 5
+
+Now,
+
+
+for(let i = 0; i<5 ; i++){
+    setTimeout(function(){
+        console.log(i);
+    });
+}
+// 0, 1, 2, 3, 4
+
+
 25. Find sum of array elements using single function? How will you calculate depth of array
 var a = [1,2,[3,4, [5,6],7,8],9,10]
 I did using flat() reduce ()
