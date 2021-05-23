@@ -149,7 +149,7 @@ for(var i = 0; i<5 ; i++){
 }
 // 5 times 5
 
-Now,
+Now, replace var with let
 
 
 for(let i = 0; i<5 ; i++){
