@@ -1,0 +1,226 @@
+#################################################
+# Most demanded UI interview Questions
+#################################################
+
+
+JS Interview Questions
+=======================
+1. What is call back function( Higer order function) ? / Can it be an argument of another function? / Can it be a closure?
+2. What is anonymous function? Best way of writing call back function
+3. How many types of data type available
+4. Ability to write a recursive function
+5. How many types of syntax are there to define object
+6. Ajax - status code, make sync, promise
+7. JavaScript Operators typeof, == , ===, ~
+8. What would be the output?
+
+1+2+"4"+1+2
+1+"1"+1
+TRUE+TRUE
+TRUE+7
+FALSE+1+TRUE
+FALSE+"1"+TRUE
+
+9. How to create a class in JS
+10. Explain Inheritance in JavaScript - Classical , prototypal inheritance. If answer is correct ask to add a method [average] in Array using prototype like below 
+
+var arr = [1, 2, 3, 4, 5];
+var avg = arr.average();
+console.log(avg);
+
+Array.prototype.average = function(){
+	this.reduce(function(accumulator, currentVal){
+		return ((accumulator+currentVal)/this.length);
+	});
+}
+
+12. Self Invoking function
+13. Hoisting
+14. Closure function
+15. What is arrow function what is the diff between regular function and arrow function? Advantage, How this keyword works in it.
+16. Diff between var, let, const
+17. What is console object
+18. Arrow function, this keyword in arrow function.
+19. Spread operator (... operator )& its uses
+20. Shallow copy, Deep copy in JavaScript
+21. Array copy
+
+let array1 = [1, 2, 3]; 
+let array2 = array1;
+array2.push(4);
+console.log(array2); // [1, 2, 3, 4 ] 
+console.log(array1); // [1, 2, 3, 4 ]  as array are passed by ref.
+
+now copy using spread operator
+let array1 = [1, 2, 3]; 
+let array2 = [...array1];
+array2.push(4);
+console.log(arr2); // [1, 2, 3, 4 ] 
+console.log(arr1); // [1, 2, 3 ]
+
+21. What is generator function. function*() {}
+
+22. What would be the output? Why
+
+var arr1 = "john".split(''); //['j', 'o', 'h', 'n']
+var arr2 = arr1.reverse(); // ['n', 'h', 'o', 'j']
+var arr3 = "jones".split(''); // ['j', 'o', 'n', 'e', 's']
+arr2.push(arr3); // ['n', 'h', 'o', 'j', ['j', 'o', 'n', 'e', 's']]
+console.log("array 1: length=" + arr1.length + " last=" + arr1.slice(-1)); 
+//array 1: length=5 last=j,o,n,e,s
+console.log("array 2: length=" + arr2.length + " last=" + arr2.slice(-1)); 
+//array 2: length=5 last=j,o,n,e,s
+
+23. What would be the output?
+const length = 4;
+const numbers = []; //5
+for (var i = 0; i < length; i++);{
+  numbers.push(i + 1);
+}
+
+24. How do you flat / sum the array? [ES6 flat()]
+
+let arr = [[1, 2],[3, 4, [5, 6, [7, 8], 9]],[10, [11, 12]]];
+arr.flat(5); // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+
+OR
+
+let arr = [[1, 2],[3, 4, [5, 6, [7, 8], 9]],[10, [11, 12]]];
+arr.flat(Infinity); //[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+
+SUM
+
+let arr = [[1, 2],[3, 4, [5, 6, [7, 8], 9]],[10, [11, 12]]];
+arr.flat(Infinity).reduce(function(a,c){
+    return a+c;
+});
+//78
+
+
+25. What is currying function? Give an example
+
+sum(2)(3)(10)(15);
+
+function sum(a){
+	return function(b){
+		return function(c){
+			return function(d){
+				return (a+b+c+d);
+			}
+		}
+	}
+}
+
+ES6
+============================
+Must need to know ES6 features
+
+JS important concepts to know
+==============================
+1. Callstack
+2. Event Loop
+3. Higher-order functions
+4. Callback function
+5. Closure
+6. Generator functions
+7. Promises
+8 . Async & Await
+9. IIFE
+10. Scope
+11. Hoisting
+12. call(), apply(), bind() and this keyword /function borrowing
+13. Currying functions
+14. Pure Functions
+15. Debouncing and Throttling
+16. Shallow copy, Deep Copy
+17. Event Bubbling
+18. Event Capturing
+19. Function expression and Function declaration
+20. use strict
+21. Identity Operator (===) vs. Equality Operator (==)
+22. Array methods (map, reduce, filter)
+23. Map Set
+24. Execute setTimeout() from a for loop. What would be the output & why
+for(var i = 0; i<5; i+,+{setTimeout(()=>{console.log(i)})}
+for(let i = 0; i<5; i++) {setTimeout(()=>{console.log(i)})}
+25. Find sum of array elements using single function? How will you calculate depth of array
+var a = [1,2,[3,4, [5,6],7,8],9,10]
+I did using flat() reduce ()
+
+26. what are new features of ES6
+27. Object.freeze() vs const (need to study)
+
+
+Angular
+=============
+1. How to pass data from one comment to another component.
+2. Diff JIT vs AOT build
+3. What is promise?
+4. Promise vs Observable
+5. What is lazy loading
+6. How to know an angular app is having lazy loading features without seeing codebase
+7. How to handle application state (using Redux)
+8. Event, property binding
+9. Diff constructor vs ngOnInit
+10. Service to be used by a specific component using providedIn
+11. Ivy compilation (ng v9)
+12. Call multiple http asynchronously
+13. Rxjs operators (state handling)
+14. Do you know ngrx library?
+
+CSS + HTML
+============
+1. Understand concept of view port
+2. Box model 
+3. Diff values for padding, margin
+4. CSS position - static, fixed, absolute, relative, sticky
+5. How make application responsive
+6. Ability to write media query
+7. Html 5 API - localstorage, session storage, geo location
+8. If I want to know from which location website is getting access how to know (understand concept of geo location)
+9. Location specific advertisement to display
+10. col-md-4 are printing via loop. Need to add div.row per 4 div. What would be the approach.
+11. Diff display  - block, inline block, none, flex
+12. Diff display:grid vs display: flex
+13. CSS interitance (using !important)
+14. CSS pseudo elements (before, after, hover, active, focus, visited)
+
+Infosys
+---------------
+1. What is difference agile and waterfall (explained)
+2. Scrum 3 major roles (scrum master, product owner, team member)
+3. Which agile framework you use (said scrum)
+4. How many team member are there in scrum team( said 10. Got cross questions that there should be 7-9 why 10. Explained die to someone urgent delivery we have added few resources recently from other team. They will be swapped soon)
+5. What is your role
+6. How to meet date line
+7. How to resolve conflict in your team members?
+8. What are Development approach you follow (coding, review, staging etc?
+9. What are scenario in scrum ceremony?
+10. Do you have scrum master certificate? If we ask to get it in how many days you can learn it ?
+11. Main building blocks of Angular
+12. How to make application performance better/performance optimization (explained assets minification, unit testing, angular change detection strategy, lazy loading)
+13. What is AOT, JIT compilation?
+14. Have your worked on CI/CD ? How its beneficial?
+15. What is rxjs?
+16. What is service ? Why we need ?
+17. How to write http call in service?
+18. How to you provide estimation & what metric u consider while doing estimation? (Explained we have predefined metric and tool for that. We have to enter how complex is that. Based on that is calculated)
+19. How unit testing improve performance of application?
+20. How do you manage if any production issue come and client escalate in call
+
+Accenture Interview
+======================
+1. How angular works?
+2. What is your projects working model?
+3. How many components have u developed in last project?
+4. How do u design a angular project architecture from scratch?
+5. How do you get requirements?
+6. What are ceremony of scrum?
+7. As u work in scrum so are u working in shift? I said we have general shift as TPM is from offshore?
+8. Tell me what 2 major critical issues u faced in angular and how did you resolved those?
+9. Few other front end architectural design questions
+10. How do u set-up angular project for this requirement?
+11. What is event bubbling? How to prevent it?
+12. What is scope chain?
+13. What are the state of promise? How it works? Difference between promise , observable
+14. What are the new HTML5 elements? Why we use? How to use HTML5 in old browser?
