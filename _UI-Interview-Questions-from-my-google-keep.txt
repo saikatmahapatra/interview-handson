@@ -202,8 +202,8 @@ CSS + HTML
 13. CSS interitance (using !important)
 14. CSS pseudo elements (before, after, hover, active, focus, visited)
 
-Infosys
----------------
+=======================================================================================================================
+
 1. What is difference agile and waterfall (explained)
 2. Scrum 3 major roles (scrum master, product owner, team member)
 3. Which agile framework you use (said scrum)
@@ -225,8 +225,8 @@ Infosys
 19. How unit testing improve performance of application?
 20. How do you manage if any production issue come and client escalate in call
 
-Accenture Interview
-======================
+
+
 1. How angular works?
 2. What is your projects working model?
 3. How many components have u developed in last project?

@@ -12,3 +12,19 @@ function sum(a){
 	}
 }
 
+
+
+if(x.indexOf('*')>-1){
+       var frag = x.split("*");
+       if(s.contains(frag[0]) && s.contains(frag[1])){
+            var firIndex = s.indexOf(frag[0]);
+            var firSecIndex = firIndex + frag[0].length();
+            if(firSecIndex+1 == s.indexOf(frag[1], firSecIndex)){
+                return firIndex;
+            }
+        }
+        
+    }else {
+        return s.indexOf(x);
+    }
+    return -1;
