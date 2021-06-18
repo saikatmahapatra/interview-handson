@@ -1,12 +1,11 @@
-#################################################
-# Most demanded UI interview Questions
-#################################################
-
-
-JS Interview Questions
-============================
-1. What is call back function( Higer order function) ? / Can it be an argument of another function? / Can it be a closure?
-2. What is anonymous function? Best way of writing call back function
+====================================
+JavaScript, jQuery, ES6/7/8/ES2020
+====================================
+1. Type of functions & example, uses:
+- Callback function?
+- Self Invoking function / IIFE - Immediately Invoking Function Expressions
+- Higher-order function? Difference better Higher-order vs Callback
+2. What is Closure?
 3. How many types of data type available
 4. Ability to write a recursive function
 5. How many types of syntax are there to define object
@@ -33,10 +32,9 @@ Array.prototype.average = function(){
 		return ((accumulator+currentVal)/this.length);
 	});
 }
-
-12. Self Invoking function
+11. Is setTimeout() is a callback function?
+12. What is Memoization? Explain with example.
 13. Hoisting
-14. Closure function
 15. What is arrow function what is the diff between regular function and arrow function? Advantage, How this keyword works in it.
 16. Diff between var, let, const
 17. What is console object
@@ -111,46 +109,34 @@ function sum(a){
 	}
 }
 
-26. 
+26. How do you exit from the above for loop without using break, any condition etc?
 for(var i = 0; i<10; i++){
 	for(var j=0; j<5; j++){
 	}
 }
 
-How do you exit from the above for loop without using break, any condition etc?
+
 27. What is double questions mark (??) operator?
 28. How many ways are there to create object in JS? Explain all those. When we need those.
-
-ECMA Script ES6/7, ES2020 - I need to study
-============================
-Must need to know ES6 features like spread operator, of, let, var, array methods etc
-
-JS important concepts to know
-==============================
-1. Callstack
-2. Event Loop
-3. Higher-order functions
-4. Callback function
-5. Closure
-6. Generator functions
-7. Promises
-8 . Async & Await
-9. IIFE
-10. Scope
-11. Hoisting
-12. call(), apply(), bind() and this keyword /function borrowing
-13. Currying functions
-14. Pure Functions
-15. Debouncing and Throttling
-16. Shallow copy, Deep Copy
-17. Event Bubbling
-18. Event Capturing
-19. Function expression and Function declaration
-20. use strict
-21. Identity Operator (===) vs. Equality Operator (==)
-22. Array methods (map, reduce, filter)
-23. Map Set
-24. Execute setTimeout() from a for loop. What would be the output & why?
+29. Explain Callstack
+30. Explain Event Loop
+31. Higher-order functions
+32. Generator functions
+33. Promises
+34. Async & Await
+35. Scope
+36. call(), apply(), bind() and this keyword /function borrowing
+37. Currying functions
+38. Pure Functions
+39. Debouncing and Throttling
+40. Shallow copy, Deep Copy
+41. Event Bubbling
+42. Event Capturing
+43. Function expression and Function declaration
+44. use strict
+45. Array methods (map, reduce, filter)
+46. Map Set
+47. Execute setTimeout() from a for loop. What would be the output & why?
 
 for(var i = 0; i<5 ; i++){
     setTimeout(function(){
@@ -170,16 +156,15 @@ for(let i = 0; i<5 ; i++){
 // 0, 1, 2, 3, 4
 
 
-25. Find sum of array elements using single function? How will you calculate depth of array
+48. Find sum of array elements using single function? How will you calculate depth of array
 var a = [1,2,[3,4, [5,6],7,8],9,10]
 I did using flat() reduce ()
+49. what are new features of ES6
+50. Object.freeze() vs const (need to study)
 
-26. what are new features of ES6
-27. Object.freeze() vs const (need to study)
-
-
+==============================================
 Angular 6/7/8/9/10
-============================
+==============================================
 1. How to pass data from one comment to another component.
 2. Diff JIT vs AOT build
 3. What is promise?
@@ -202,8 +187,9 @@ Angular 6/7/8/9/10
 20. Diff - ViewChild, ContainerChild
 21. Diff - CanLoad, CanActivate, CanDeactivate
 
+==============================================
 HTML5, CSS3
-============================
+==============================================
 1. Understand concept of view port or any meta tags, SEO meta tags etc
 2. Box model - margin, border, padding 
 3. Diff values for padding, margin
