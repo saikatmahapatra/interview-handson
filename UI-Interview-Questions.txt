@@ -228,6 +228,8 @@ HTML5, CSS3
 16. Diff - em, rem
 17. You have text at left side, radio button at right side. On clicking on text how to check radion button ?
 Ans: Add <label for="radioBtnId">Text<label>
+18. What is Skeleton loading / Skeleton model ?
+https://css-tricks.com/building-skeleton-screens-css-custom-properties/
 
 #####################################################################################
 #####################################################################################
