@@ -222,7 +222,7 @@ HTML5, CSS3
 10. col-md-4 are printing via loop. Need to add div.row per 4 div. What would be the approach.
 11. Diff display  - block, inline block, none, flex
 12. Diff display:grid vs display: flex
-13. CSS interitance (using !important)
+13. CSS inheritance (using !important)
 14. CSS pseudo elements (before, after, hover, active, focus, visited)
 15. What is storage limit of localstorage? How to get 10 mb storage in browser?
 16. Diff - em, rem
