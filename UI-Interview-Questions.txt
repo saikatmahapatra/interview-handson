@@ -231,48 +231,18 @@ Ans: Add <label for="radioBtnId">Text<label>
 18. What is Skeleton loading / Skeleton model ?
 https://css-tricks.com/building-skeleton-screens-css-custom-properties/
 
-#####################################################################################
-#####################################################################################
-#####################################################################################
-
-Service Based Company 1 Interview
-========================================
+Agile (Scrum)/Project Management
+===========================
 1. What is difference agile and waterfall (explained)
-2. Scrum 3 major roles (scrum master, product owner, team member)
+2. Scrum 3 roles of Scrum (Product Owner, Scrum Master, Dev Team)
 3. Which agile framework you use (said scrum)
-4. How many team member are there in scrum team( said 10. Got cross questions that there should be 7-9 why 10. Explained die to someone urgent delivery we have added few resources recently from other team. They will be swapped soon)
+4. How many team member are there in scrum team( said 10. Got cross questions that there should be 7-9 why 10)
 5. What is your role
 6. How to meet date line
 7. How to resolve conflict in your team members?
-8. What are Development approach you follow (coding, review, staging etc?
-9. What are scenario in scrum ceremony?
+8. What are Development approach you follow (coding, review, staging etc)?
+9. What are scenario in scrum ceremony/scrum events? (Sprint Planning, Daily Scrum, Sprint Review, Sprint Retrospective)
 10. Do you have scrum master certificate? If we ask to get it in how many days you can learn it ?
-11. Main building blocks of Angular
-12. How to make application performance better/performance optimization (explained assets minification, unit testing, angular change detection strategy, lazy loading)
-13. What is AOT, JIT compilation?
-14. Have your worked on CI/CD ? How its beneficial?
-15. What is rxjs?
-16. What is service ? Why we need ?
-17. How to write http call in service?
-18. How to you provide estimation & what metric u consider while doing estimation? (Explained we have predefined metric and tool for that. We have to enter how complex is that. Based on that is calculated)
-19. How unit testing improve performance of application?
-20. How do you manage if any production issue come and client escalate in call
-
-
-Service Based Company 2 Interview
-========================================
-1. How angular works?
-2. What is your projects working model?
-3. How many components have u developed in last project?
-4. How do u design a angular project architecture from scratch?
-5. How do you get requirements?
-6. What are ceremony of scrum?
-7. As u work in scrum so are u working in shift? I said we have general shift as TPM is from offshore?
-8. Tell me what 2 major critical issues u faced in angular and how did you resolved those?
-9. Few other front end architectural design questions
-10. How do u set-up angular project for this requirement?
-11. What is event bubbling? How to prevent it?
-12. What is scope chain?
-13. What are the state of promise? How it works? Difference between promise , observable
-14. What are the new HTML5 elements? Why we use? How to use HTML5 in old browser?
-
+11. How do you manage if any production issue come and client escalate in call
+12. As u work in scrum so are u working in shift? I said we have general shift as TPM is from offshore?
+13. Tell me what 2 major critical issues u faced in angular and how did you resolved those?
