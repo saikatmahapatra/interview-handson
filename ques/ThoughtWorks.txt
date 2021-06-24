@@ -1,3 +1,7 @@
+=========================
+ThoughtWorks
+========================
+
 Given an array of stock prices of a stock on each day, find the minimum buy price and maximum sell
 price that produces the greatest profit. As shown in the below example, if you buy on day 1 when
 stock price is 2 and sell it on day 4 when stock price reaches 5, you would get the maximum profit.

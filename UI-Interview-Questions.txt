@@ -166,9 +166,23 @@ I did using flat() reduce ()
 Angular 6/7/8/9/10
 ==============================================
 1. How to pass data from one comment to another component.
+Ans: @Input() childMsg
+
 2. Diff JIT vs AOT build
+Ans: JIT - when we run from dev env in browser
+AOT - ng build --prod
+
 3. What is promise?
+Ans: A JS object for async operation
+var p = new Promise((resolve, reject)=>{
+	
+});
+
+
 4. Promise vs Observable
+https://www.syncfusion.com/blogs/post/angular-promises-versus-observables.aspx
+
+
 5. What is lazy loading
 6. How to know an angular app is having lazy loading features without seeing codebase
 7. How to handle application state (using Redux)
@@ -180,12 +194,18 @@ Angular 6/7/8/9/10
 13. Rxjs operators (state handling)
 14. Do you know ngrx library?
 15. What is @HostBinding , @HostListerer
+
+@HostListerer is used to listen any events generated for a element
+@HostBinding binds attribute to that host element
+
+
 16. What is the difference between on push & default strategy
 17. What is ViewProvider, purpose of it
 18. How to handle styling? Explain viewEncapsulation
 19. Explain advantage, disadvange of SPA. How to overcome SEO issue (Explain SSR Concepts)
 20. Diff - ViewChild, ContainerChild
 21. Diff - CanLoad, CanActivate, CanDeactivate
+22. Major thing why Google think to introduce Angular2 (diff Angular.js vs Angular)
 
 ==============================================
 HTML5, CSS3

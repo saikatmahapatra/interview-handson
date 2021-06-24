@@ -1,3 +1,6 @@
+==========================
+HCL-Tech-Bangalore
+==========================
 // what is closure
 function outer(){
 	var a = 10;
