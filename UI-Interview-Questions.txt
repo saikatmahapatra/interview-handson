@@ -183,6 +183,34 @@ for(var i = 0; i<arr.length; i++){
 }
 console.log(arr)
 
+52.  What will be the output & why?
+
+var myObject = {
+	price: 20.99, 
+    get_price : function() { 
+		return this.price; 
+	} 
+}; 
+
+var customObject = Object.create(myObject); 
+customObject.price = 19.99; 
+delete customObject.price;
+console.log(customObject.get_price());  //20.99
+
+Reason: Object.create creates a new object by using existing object prototype. First JS will check if price is there in customObject. if not found then will find in its __proto__
+
+customObject
+	price: 19.99
+	__proto__
+		price: 20.99
+		__proto__
+			Object
+
+
+53. What is callback hell & how to avoid it
+54.debouncing vs throttling
+55. arrow function vs normal function
+
 ==============================================
 Angular 6/7/8/9/10
 ==============================================
