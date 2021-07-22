@@ -255,6 +255,7 @@ https://www.syncfusion.com/blogs/post/angular-promises-versus-observables.aspx
 20. Diff - ViewChild, ContainerChild
 21. Diff - CanLoad, CanActivate, CanDeactivate
 22. Major thing why Google think to introduce Angular2 (diff Angular.js vs Angular)
+23. How to handle multiple observables once after another based on retunr respose of one after another
 
 ==============================================
 HTML5, CSS3
