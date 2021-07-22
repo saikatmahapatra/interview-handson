@@ -1,3 +1,3 @@
 git add .
-git commit -m "your commit message %stamp%"
+git commit -m "modified on `%stamp%`"
 git push origin master 
