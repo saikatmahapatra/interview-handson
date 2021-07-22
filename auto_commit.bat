@@ -1,4 +1,3 @@
-set timestamp=%stamp%
 git add .
-git commit -m "modified on `%timestamp%`"
-git push origin master 
+git commit -m "modified on `%YYYY%-%MM%-%DD%_%HH%-%Min%-%Sec%`"
+git push origin master
