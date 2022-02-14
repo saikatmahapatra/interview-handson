@@ -1,3 +1,15 @@
+=====================================
+Web Fundamentals
+=====================================
+1. What happens when you type http://www.google.com
+2. Difference between http and https. How to enable https for APIs
+3. HTTP metods - get, post, put, delete, patch ( know them)
+4. Difference btn Post vs Put
+5. What is Rest API? Why known as RESTful? How is works
+6. How to enable https for Rest APIs
+7. How to improve web performance ( Know about DNS caching, PRPL, Laze loading etc)
+
+
 ====================================
 JavaScript, jQuery, ES6/7/8/ES2020
 ====================================
