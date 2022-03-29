@@ -320,3 +320,6 @@ Agile (Scrum)/Project Management
 5. ngContent
 6. forRoot, forChildren
 7. Application architecture
+8. changeDetectionStrategy.on.push vs default
+9. what is viewEncapsulation
+10. how to minimize bundle size
