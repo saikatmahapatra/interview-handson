@@ -82,3 +82,20 @@ function isAvailable(busyMeetingTime, startTime, endTime){
   return res;
 }
 isAvailable(meetings, 850, 1240);
+
+//##################################################################################
+// This is working, All Test cases are passing
+//##################################################################################
+var meetings = [[1230, 1300], [845, 900], [1300, 1500]];
+function isAvailable(busyTime, startTime, endTime){
+	let isAvailable = true;
+	busyTime.forEach(function(meetingTime){
+		meetingStartTime = 	meetingTime[0]; // meeting start time 
+		meetingEndTime = meetingTime[1]; // meeting end time		
+		if((startTime > meetingStartTime && startTime < meetingEndTime) || (endTime > meetingStartTime && endTime < meetingEndTime) || (startTime <= meetingStartTime && endTime >=meetingEndTime)) {
+			isAvailable = false;
+		}		
+	});	
+	console.log("From : "+startTime+ " To : "+endTime+" >>>> " + isAvailable);
+	return isAvailable;
+};
