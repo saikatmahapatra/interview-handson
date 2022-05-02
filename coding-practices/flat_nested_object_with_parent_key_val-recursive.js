@@ -10,7 +10,8 @@ let user = {
         },
         office: {
             city: 'kolkata',
-            area: 'newtown'
+            area: 'newtown',
+            landmark: 'near narkel bagan'
         }
     }
 }
@@ -32,5 +33,5 @@ let flatObj = (obj, parent) => {
     }
 }
 
-flatObj(user);
+flatObj(user, 'user');
 console.log(finalObj);
