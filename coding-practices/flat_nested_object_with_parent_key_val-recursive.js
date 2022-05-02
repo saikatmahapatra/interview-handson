@@ -20,6 +20,7 @@ let user = {
 // user_address_home_city: "kolkata"
 // user_address_office_area: "newtown"
 // user_address_office_city: "kolkata"
+// user_address_office_landmark: "near narkel bagan"
 // user_name: "saikat"
 
 let finalObj = {};
