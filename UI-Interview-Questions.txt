@@ -358,3 +358,10 @@ Part 8: Agile/Managerial Round
 11. How do you manage if any production issue come and client escalate in call
 12. As u work in scrum so are u working in shift? I said we have general shift as TPM is from offshore?
 13. Tell me what 2 major critical issues u faced in angular and how did you resolved those?
+
+
+
+
+
+
+
