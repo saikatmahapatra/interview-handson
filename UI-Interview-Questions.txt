@@ -261,7 +261,7 @@ customObject
 
 
 =========================================================
-Part 4: Design Patterns, Rendering Patterns, performance Patterns
+Part 5: Design Patterns, Rendering Patterns, performance Patterns
 I was asked in many Product based companies
 =========================================================
 1. Explain MVC, MVVM, MVP
@@ -282,7 +282,7 @@ Lazy load other routes and non-critical assets.
 
 
 =========================================================
-Part 5: Angular 2/4/5/6/7/8/9/10+
+Part 6: Angular 2/4/5/6/7/8/9/10+
 =========================================================
 1. What is lazy loading
 2. How to know an angular app is having lazy loading features without seeing codebase
@@ -326,7 +326,7 @@ Part 5: Angular 2/4/5/6/7/8/9/10+
 
 
 =========================================================
-Part 6: CI/CD DevOps, Git
+Part 7: CI/CD DevOps, Git
 =========================================================
 1. How is Git different from Subversion (SVN)?
 2. What is the correct syntax to add a message to a commit?
@@ -343,7 +343,7 @@ Part 6: CI/CD DevOps, Git
 
 
 =========================================================
-Part 7: Agile/Managerial Round
+Part 8: Agile/Managerial Round
 =========================================================
 1. What is difference agile and waterfall (explained)
 2. Scrum 3 roles of Scrum (Product Owner, Scrum Master, Dev Team)
